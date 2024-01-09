@@ -1,8 +1,8 @@
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
 
-.start{
+.start {
     width: 100vw;
     height: 100vh;
     background: radial-gradient(68.58% 67.02% at 50% 50%, rgba(0, 0, 0, 0.00) 53.6%, rgba(0, 0, 0, 0.50) 91.75%), url("../img/landspace.png"), lightgray 50%;
@@ -10,12 +10,21 @@
     background-size: cover;
 }
 
-.bg-light{
+/******************* Navbar *******************/
+.bg-light {
     background-color: transparent !important;
 }
 
+.navbar {
+    padding: 40px 22px;
+}
+
 .navbar-light .navbar-nav .nav-link, .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: white;
+    color: white !important;
+}
+
+ul {
+    gap: 30px;
 }
 
 a{
@@ -29,10 +38,11 @@ a{
     background-color: #7EB300;
 }
 
-.line{
+.line {
     position: relative;
 }
-.line::before{
+
+.line::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -42,6 +52,7 @@ a{
     background-color: #ffffff;
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
 @media (hover: hover) and (pointer: fine) {
     .line:hover::before{
       left: 0;
@@ -50,3 +61,17 @@ a{
     }
 }
 
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-item{
+    color: white !important;
+    font-size: 1.2rem;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.959) !important;
+}
