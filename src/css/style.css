@@ -76,10 +76,46 @@ a{
     color: rgba(255, 255, 255, 0.959) !important;
 }
 
-/******************* Início *******************/
+/******************* start *******************/
 p {
     color: white;
     text-align: center;
     margin-top: 220px;
     max-width: 80%;
+}
+
+.social-media {
+    float: right;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 170px;
+}
+
+.icon-instagram {
+    margin-bottom: 10px;
+}
+
+.icon-facebook {
+    margin-top: 10px;
+}
+
+/******************* main-races *******************/
+.col-md-auto {
+    padding: 0.4rem;
+}
+
+.title-1,.title-2 {
+    font-family: 'Biryani', sans-serif;
+}
+
+.title-1{
+    color: #000;
+}
+
+.title-2{
+    color: #7EB300;
+}
+
+.title{
+    margin-top: 134px;
 }
