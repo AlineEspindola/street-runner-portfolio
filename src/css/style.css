@@ -23,6 +23,10 @@
     color: white !important;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/fluentNavigation.png);
+}
+
 ul {
     gap: 30px;
 }
