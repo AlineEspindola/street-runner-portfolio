@@ -11,3 +11,11 @@
         background-size: cover;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .start {
+        background: radial-gradient(68.58% 67.02% at 50% 50%, rgba(0, 0, 0, 0.00) 53.6%, rgba(0, 0, 0, 0.50) 91.75%), url(../img/landspace400x.png), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
