@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -138,11 +142,43 @@ a {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
+    margin-bottom: 30px;
     max-width: fit-content; 
 }
 
+.races h5,.races p {
+    text-align: left;
+}
 
+.races h5 {
+    font-family: Biryani;
+}
 
+.races p {
+    font-size: 1.2rem;
+}
 
+.card {
+    border: 0;
+    width: 20rem;
+}
+
+.card-body {
+    padding: 2rem 0;
+}
+
+.races .row  {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/******************* about *******************/
+.about {
+    margin-top: 100px;
+}
+
+.col-4 {
+    padding: 0;
+}
 
 
