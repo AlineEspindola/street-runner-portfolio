@@ -27,4 +27,8 @@
         background-size: cover;
         background-position: center;
     }
+
+    .social-media {
+        margin-top: 65%;
+    }
 }
