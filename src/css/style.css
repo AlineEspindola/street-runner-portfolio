@@ -21,7 +21,7 @@
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url(../img/fluentNavigation.png);    
+    background-image: url(../img/assets/fluentNavigation.png);    
 }
 
 ul {
@@ -87,7 +87,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .social-media {
     float: right;
