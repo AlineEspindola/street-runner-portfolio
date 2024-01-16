@@ -107,6 +107,11 @@ a {
     margin-top: 10px;
 }
 
+.icon-facebook:hover,.icon-instagram:hover {
+    transform: scale(1.1);
+    transition: 100ms linear; 
+}
+
 /******************* main-races *******************/
 .col-md-auto {
     padding: 0.4rem;
@@ -158,6 +163,11 @@ a {
     font-size: 1.2rem;
 }
 
+.col-sm{
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     border: 0;
     width: 20rem;
@@ -181,6 +191,7 @@ a {
     padding: 0;
     flex: none;
     max-width: 46%;
+    text-align: left;
 }
 
 .about .title  .title-1,.about .title  .title-2{
@@ -197,6 +208,7 @@ a {
 
 .about .title {
     margin-left: 80px;
+    margin-top: 0;
 }
 
 
