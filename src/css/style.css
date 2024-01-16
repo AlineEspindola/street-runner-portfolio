@@ -137,7 +137,7 @@ a {
     text-align: center;
 }
 
-.main-races p {
+.main-races p,.about p {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -179,6 +179,24 @@ a {
 
 .col-4 {
     padding: 0;
+    flex: none;
+    max-width: 46%;
+}
+
+.about .title  .title-1,.about .title  .title-2{
+    text-align: left;
+}
+
+.about p {
+    text-align: left;
+}
+
+.about .text {
+    padding-top: 30px;
+}
+
+.about .title {
+    margin-left: 80px;
 }
 
 
