@@ -11,7 +11,7 @@
         background-size: cover;
     }
 
-    .about .row {
+    .about .reverse {
         flex-direction: column-reverse;
     }
 }
