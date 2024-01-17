@@ -52,7 +52,7 @@
         padding: 35px 18px;
     }
 
-    .main-races p {
+    .main-races p,.about p{
         font-size: 1rem;
     }
 
