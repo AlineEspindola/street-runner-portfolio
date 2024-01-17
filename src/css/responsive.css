@@ -63,4 +63,8 @@
     .title {
         margin-top: 70px;
     }
+
+    .about .photo {
+        max-width: 90%;
+    }
 }
