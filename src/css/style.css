@@ -142,7 +142,7 @@ a {
     text-align: center;
 }
 
-.main-races p,.about p {
+.main-races p,.about p,.races p {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -159,7 +159,7 @@ a {
     font-family: Biryani;
 }
 
-.races p {
+.races p,.data p {
     font-size: 1.2rem;
 }
 
@@ -210,5 +210,20 @@ a {
     margin-left: 80px;
     margin-top: 0;
 }
+
+/******************* data *******************/
+h2 {
+    color: rgba(126, 179, 0, 0.80);
+    font-family: Biryani;
+    font-size: 5rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+
+.data .row {
+    margin: 10%;
+}
+
 
 
