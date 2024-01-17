@@ -65,6 +65,10 @@
     }
 
     .about .photo {
-        max-width: 90%;
+        max-width: 85%;
+    }
+
+    .col-4 {
+        max-width: 80%;
     }
 }
