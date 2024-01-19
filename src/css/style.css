@@ -225,5 +225,14 @@ h2 {
     margin: 10%;
 }
 
+/******************* gallery *******************/
+.gallery .col{
+    padding: 0;
+}
+
+.carousel-item{
+    width:auto
+}
+
 
 
