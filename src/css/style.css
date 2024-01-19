@@ -223,15 +223,30 @@ h2 {
 
 .data .row {
     margin: 10%;
+    margin-bottom: 7%;
 }
 
 /******************* gallery *******************/
-.gallery .col{
+.gallery .col {
     padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.carousel-item{
-    width:auto
+.image-gallery{
+    width: 100%;
+}
+
+.image-gallery:hover {
+    transform: scale(1.16);
+    transition: 250ms linear; 
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.items-body,.carousel-item,.carousel-inner {
+    max-width: 100%;
 }
 
 
