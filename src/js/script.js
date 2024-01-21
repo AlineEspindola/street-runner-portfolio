@@ -2,7 +2,7 @@ function increaseNumber(element, interval, speed, max){
     for (var i = 1; i <= max; i++) {
         (function (j) {
             setTimeout(function () {
-                element.innerHTML = j
+                element.innerHTML = '+'+j
             }, j * (interval += speed));
         })(i)
     }
@@ -15,11 +15,13 @@ const observer = new IntersectionObserver( (elements) => {
 
             switch(input.id){
                 case 'number1':
-                    increaseNumber(elements[i].target, 10, 20, 10)
+                    increaseNumber(elements[i].target, 10, 10, 10)
+                    break
+                case 'number2':
+                    increaseNumber(elements[i].target, 0.1, 0.19, 180)
                     break
                 default:
-                    'hi'
-                    break
+                    increaseNumber(elements[i].target, 0.1, 0.1999, 200)
             }
         }
     }
