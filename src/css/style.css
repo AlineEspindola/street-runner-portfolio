@@ -142,7 +142,7 @@ a {
     text-align: center;
 }
 
-.main-races p,.about p,.races p {
+.main-races p,.about p,.races p,.forms-disclosure p {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -183,7 +183,7 @@ a {
 }
 
 /******************* about *******************/
-.about {
+.about,.forms-disclosure {
     margin-top: 100px;
 }
 
@@ -194,11 +194,11 @@ a {
     text-align: left;
 }
 
-.about .col-md-auto {
+.about .col-md-auto,.forms-disclosure .col-md-auto {
     padding: 0;
 }
 
-.about .title  .title-1,.about .title  .title-2{
+.about .title  .title-1,.about .title  .title-2 {
     text-align: left;
 }
 
@@ -206,7 +206,7 @@ a {
     text-align: left;
 }
 
-.about .text {
+.about .text,.forms-disclosure .text {
     padding-top: 30px;
 }
 
@@ -255,6 +255,26 @@ h2 {
 .items-body,.carousel-item,.carousel-inner {
     max-width: 100%;
 }
+
+/******************* forms-disclosure *******************/
+.forms-disclosure {
+    margin-top: 170px
+}
+
+.forms-disclosure .title .title-1,.forms-disclosure .title .title-2 {
+    text-align: right;
+    max-width: 100%;
+}
+
+.forms-disclosure p {
+    text-align: right;
+}
+
+.forms-disclosure .title {
+    justify-content: flex-end;
+    text-align: right;
+}
+
 
 
 
