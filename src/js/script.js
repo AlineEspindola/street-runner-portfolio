@@ -3,25 +3,39 @@ function increaseNumber(element, interval, speed, max){
         (function (j) {
             setTimeout(function () {
                 element.innerHTML = '+'+j
-            }, j * (interval += speed));
+            }, j * (interval += speed))
         })(i)
     }
 }
+
+var occurredNumber1 = false
+var occurredNumber2 = false
+var occurredNumber3 = false
 
 const observer = new IntersectionObserver( (elements) => {
     for(var i = 0; i < elements.length; i++){
         if(elements[i].isIntersecting){
             const input = elements[i].target || elements[i].srcElement
 
-            switch(input.id){
+            switch(input.id) {
                 case 'number1':
-                    increaseNumber(elements[i].target, 10, 10, 10)
+                    if (!occurredNumber1) {
+                        increaseNumber(elements[i].target, 10, 10, 10)
+                        occurredNumber1 = true
+                    }
                     break
                 case 'number2':
-                    increaseNumber(elements[i].target, 0.1, 0.19, 180)
+                    if(!occurredNumber2) {
+                        increaseNumber(elements[i].target, 0.1, 0.19, 180)
+                        occurredNumber2 = true
+                    }
                     break
                 default:
-                    increaseNumber(elements[i].target, 0.1, 0.1999, 200)
+                    if(!occurredNumber3) {
+                        increaseNumber(elements[i].target, 0.1, 0.1999, 200)
+                        occurredNumber3 = true
+                    }
+                    break
             }
         }
     }

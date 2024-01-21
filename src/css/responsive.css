@@ -10,21 +10,21 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    .about .reverse {
-        flex-direction: column-reverse;
-    }
 }
 
 @media screen and (max-width: 1200px) {
     .col-4 {
-        max-width: 90%;
+        max-width: 80%;
         display: flex;
         justify-content: center;
     }
 
     .about .title {
         margin-left: 0;
+    }
+
+    .about .reverse {
+        flex-direction: column-reverse;
     }
 }
 
