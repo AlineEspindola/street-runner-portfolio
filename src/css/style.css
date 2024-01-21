@@ -194,6 +194,10 @@ a {
     text-align: left;
 }
 
+.about .col-md-auto {
+    padding: 0;
+}
+
 .about .title  .title-1,.about .title  .title-2{
     text-align: left;
 }

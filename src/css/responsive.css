@@ -34,6 +34,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .data .row {
+        margin: 18%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -70,5 +74,10 @@
 
     .col-4 {
         max-width: 80%;
+    }
+
+    .data .col-md-auto {
+        padding-left: 0; 
+        padding-right: 0;
     }
 }
