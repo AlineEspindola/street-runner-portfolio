@@ -36,7 +36,7 @@
     }
 
     .data .row {
-        margin: 20%;
+        margin: 25%;
     }
 }
 
@@ -68,10 +68,6 @@
         margin-top: 70px;
     }
 
-    .about .photo {
-        max-width: 85%;
-    }
-
     .col-4 {
         max-width: 80%;
     }
@@ -79,5 +75,9 @@
     .data .col-md-auto {
         padding-left: 0; 
         padding-right: 0;
+    }
+
+    .about {
+        margin-top: 50px;
     }
 }
