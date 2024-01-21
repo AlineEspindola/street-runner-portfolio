@@ -56,6 +56,14 @@
     .data .row {
         margin: 25%;
     }
+
+    .hidden {
+        display: block;
+    }
+
+    .visible {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 500px) {
