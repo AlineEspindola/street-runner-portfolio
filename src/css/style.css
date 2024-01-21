@@ -150,7 +150,7 @@ a {
     text-align: center;
 }
 
-.main-races p,.about p,.races p,.forms-disclosure p {
+.main-races p,.about p,.races p,.forms-disclosure p,.sponsors p {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -283,5 +283,8 @@ h2 {
     text-align: right;
 }
 
-
+/******************* sponsors *******************/
+.sponsors .col-4 {
+    max-width: 30%;
+}
 
