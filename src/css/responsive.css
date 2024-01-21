@@ -95,7 +95,7 @@
         padding-right: 0;
     }
 
-    .about {
+    .about,.forms-disclosure {
         margin-top: 50px;
     }
 }
