@@ -12,6 +12,18 @@
     .about .reverse {
         flex-direction: column-reverse;
     }
+
+    .forms-disclosure .justify-content-end {
+        justify-content:center !important;
+    }
+
+    .forms-disclosure .col-4 {
+        justify-content: left !important;
+    }
+
+    .forms-disclosure .title {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -62,7 +74,7 @@
         padding: 35px 18px;
     }
 
-    .main-races p,.about p{
+    .main-races p,.about p,.forms-disclosure p{
         font-size: 1rem;
     }
 

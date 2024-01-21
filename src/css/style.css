@@ -262,19 +262,18 @@ h2 {
 }
 
 .forms-disclosure .title .title-1,.forms-disclosure .title .title-2 {
-    text-align: right;
     max-width: 100%;
 }
 
-.forms-disclosure p {
-    text-align: right;
-}
-
 .forms-disclosure .title {
-    justify-content: flex-end;
-    text-align: right;
+    text-align: left;
+    margin-right: 80px;
+    margin-top: 0;
 }
 
+.forms-disclosure .col-4 {
+    text-align: right;
+}
 
 
 
