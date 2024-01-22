@@ -55,6 +55,7 @@
 
     .data .row {
         margin: 25%;
+        margin-bottom: 10%;
     }
 
     .hidden {
@@ -103,7 +104,11 @@
         padding-right: 0;
     }
 
-    .about,.forms-disclosure {
+    .about {
         margin-top: 50px;
     }
+
+    .forms-disclosure,.sponsors {
+        margin-top: 105px
+    } 
 }
