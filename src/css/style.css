@@ -284,7 +284,19 @@ h2 {
 }
 
 /******************* sponsors *******************/
-.sponsors .col-4 {
-    max-width: 30%;
+.sponsors h5, .sponsors .media-body, .sponsors .col-4{
+    max-width: fit-content ;
+}
+
+.sponsors .media {
+    margin: 0px 60px 40px;
+}
+
+.sponsors .title {
+    margin-top: 200px;
+}
+
+.sponsors .justify-content-center {
+    margin-top: 40px;
 }
 
