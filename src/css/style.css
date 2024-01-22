@@ -150,7 +150,7 @@ a {
     text-align: center;
 }
 
-.main-races p,.about p,.races p,.forms-disclosure p,.sponsors p {
+.main-races p,.about p,.races p,.forms-disclosure p,.sponsors p,.sponsorship-issue p {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -300,3 +300,55 @@ h2 {
     margin-top: 40px;
 }
 
+.sponsors h5 {
+    font-family: Biryani;
+}
+
+/******************* sponsorship-issue *******************/
+.sponsorship-issue {
+    background: rgba(126, 179, 0, 0.07);
+}
+
+.sponsorship-issue button h1 {
+    font-family: Biryani;
+    font-size: 1.5rem;
+    padding: 2rem 2.875rem 1.3rem;
+}
+
+.sponsorship-issue h1 {
+    margin: 0 !important;
+    
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #7EB300;
+    border-color: #7EB300;
+}
+
+.btn {
+    border: 0;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #76a801;
+    border-color: #76a801;
+}
+
+.btn-success:focus {
+    color: rgb(255, 255, 255);
+    background-color: #76a801;
+    border-color: #76a801;
+    box-shadow: #76a801 0px 0px 0px 0.2rem;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #76a801;
+    border-color: #76a801;
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus, .show > .btn-success.dropdown-toggle:focus, .btn-success:focus {
+    box-shadow: #a9e421 0px 0px 0px 0.2rem;
+}
