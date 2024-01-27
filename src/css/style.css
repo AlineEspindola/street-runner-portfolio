@@ -255,7 +255,7 @@ h2 {
 .image-gallery:hover {
     transform: scale(1.16);
     transition: 250ms linear; 
-    cursor: pointer;
+    /* cursor: pointer; */
     position: relative;
     z-index: 1;
 }
@@ -316,6 +316,11 @@ h2 {
     font-family: Biryani;
     font-size: 1.3rem;
     padding: 1.7rem 2rem 1rem;
+}
+
+.sponsorship-issue a {
+  text-decoration: none;
+  color: white;
 }
 
 .sponsorship-issue h1 {
