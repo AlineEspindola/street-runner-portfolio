@@ -104,8 +104,12 @@
         padding-right: 0;
     }
 
-    .about,.sponsorship-issue {
+    .about {
         margin-top: 50px;
+    }
+
+    .sponsorship-issue {
+      margin-top: 100px;
     }
 
     .forms-disclosure,.sponsors {
