@@ -307,17 +307,19 @@ h2 {
 /******************* sponsorship-issue *******************/
 .sponsorship-issue {
     background: rgba(126, 179, 0, 0.07);
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
 }
 
 .sponsorship-issue button h1 {
     font-family: Biryani;
-    font-size: 1.5rem;
-    padding: 2rem 2.875rem 1.3rem;
+    font-size: 1.3rem;
+    padding: 1.7rem 2rem 1rem;
 }
 
 .sponsorship-issue h1 {
     margin: 0 !important;
-    
 }
 
 .btn-success {
@@ -351,4 +353,9 @@ h2 {
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .show > .btn-success.dropdown-toggle:focus, .btn-success:focus {
     box-shadow: #a9e421 0px 0px 0px 0.2rem;
+}
+
+.sponsorship-issue .text-copyright {
+    margin-top: 5rem;
+    font-size: 1rem;
 }
