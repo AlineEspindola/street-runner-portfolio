@@ -46,15 +46,15 @@ const observer = new IntersectionObserver( (elements) => {
                     break
                 case 'main-races-card-1':
                     elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp', 'animate__delay-1s')
+                    elements[i].target.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-1s')
                     break
                 case 'main-races-card-2':
                     elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp', 'animate__delay-2s')
+                    elements[i].target.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-2s')
                     break
                 case 'main-races-card-3':
                     elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp', 'animate__delay-3s')
+                    elements[i].target.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-3s')
                     break
             }
         }
