@@ -30,11 +30,31 @@ const observer = new IntersectionObserver( (elements) => {
                         occurredNumber2 = true
                     }
                     break
-                default:
+                case 'number3':
                     if(!occurredNumber3) {
                         increaseNumber(elements[i].target, 0.1, 0.1999, 200)
                         occurredNumber3 = true
                     }
+                    break
+                case 'main-races-title':
+                    elements[i].target.classList.remove('animated-hidden-element')
+                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp')
+                    break
+                case 'main-races-text':
+                    elements[i].target.classList.remove('animated-hidden-element')
+                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp')
+                    break
+                case 'main-races-card-1':
+                    elements[i].target.classList.remove('animated-hidden-element')
+                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp', 'animate__delay-1s')
+                    break
+                case 'main-races-card-2':
+                    elements[i].target.classList.remove('animated-hidden-element')
+                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp', 'animate__delay-2s')
+                    break
+                case 'main-races-card-3':
+                    elements[i].target.classList.remove('animated-hidden-element')
+                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp', 'animate__delay-3s')
                     break
             }
         }

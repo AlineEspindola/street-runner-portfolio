@@ -14,6 +14,10 @@ html {
     display: block;
 }
 
+.animated-hidden-element {
+  opacity: 0;
+}
+
 /******************* Navbar *******************/
 .bg-light {
     background-color: transparent !important;
