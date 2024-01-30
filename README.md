@@ -1,4 +1,4 @@
-# SidneyEspindola
+# 👟 Landing Page para um Corredor de Rua 🏃
 Uma Landing Page para captar patrocinadores para um corredor de corrida. Foi criada várias seções para convencer que possíveis empresas patrocinem o atleta.
 
 ## Explorando as Camadas: Uma Jornada Visual e Informativa pela vida do Atleta
