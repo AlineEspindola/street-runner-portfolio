@@ -51,6 +51,18 @@ const observer = new IntersectionObserver( (elements) => {
                 case 'main-races-card-3':
                     animationFadeInUp(elements[i].target, 'animate__delay-3s')
                     break
+                case 'about-img':
+                    animatioFadeInLeft(elements[i].target)
+                    break
+                case 'forms-disclosure-text':
+                    animatioFadeInLeft(elements[i].target)
+                    break
+                case 'sponsors-title':
+                    animationSlideInUp(elements[i].target)
+                    break
+                case 'sponsors-text':
+                    animationSlideInUp(elements[i].target)
+                    break
             }
         }
     }
@@ -82,7 +94,6 @@ function animationSlideInUp(element) {
 }
 
 function animationFadeInUp(element, delay) {
-    console.log(delay)
     if (checkSize() == 'pequena') {
         element.classList.remove('animated-hidden-element')
         element.classList.add('animate__animated', 'animate__fadeInUp')
@@ -90,5 +101,10 @@ function animationFadeInUp(element, delay) {
         element.classList.remove('animated-hidden-element')
         element.classList.add('animate__animated', 'animate__fadeInUp', delay)
     }
+}
+
+function animatioFadeInLeft(element) {
+    element.classList.remove('animated-hidden-element')
+    element.classList.add('animate__animated', 'animate__fadeInLeft')
 }
 
