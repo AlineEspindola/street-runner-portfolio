@@ -15,7 +15,23 @@ html {
 }
 
 .animated-hidden-element {
-  opacity: 0;
+    opacity: 0;
+}
+
+.animate__delay-6s {
+    animation-delay: 6s;
+}
+
+.animate__delay-7s {
+  animation-delay: 7s;
+}
+
+.animate__delay-8s {
+  animation-delay: 8s;
+}
+
+.animate__delay-9s {
+  animation-delay: 9s;
 }
 
 /******************* Navbar *******************/
@@ -119,7 +135,7 @@ a {
     margin-top: 10px;
 }
 
-.icon-facebook:hover,.icon-instagram:hover {
+.icon-facebook:hover,.icon-instagram:hover,.sponsors .media:hover {
     transform: scale(1.1);
     transition: 100ms linear; 
 }
@@ -294,6 +310,7 @@ h2 {
 
 .sponsors .media {
     margin: 0px 60px 40px;
+    cursor: pointer;
 }
 
 .sponsors {
@@ -313,7 +330,7 @@ h2 {
     background: rgba(126, 179, 0, 0.07);
     padding: 20px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .sponsorship-issue button h1 {

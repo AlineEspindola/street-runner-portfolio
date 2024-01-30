@@ -63,6 +63,33 @@ const observer = new IntersectionObserver( (elements) => {
                 case 'sponsors-text':
                     animationSlideInUp(elements[i].target)
                     break
+                case 'sponsor-1':
+                    animationFadeIn(elements[i].target, 'animate__delay-1s')
+                    break
+                case 'sponsor-2':
+                    animationFadeIn(elements[i].target, 'animate__delay-2s')
+                    break
+                case 'sponsor-3':
+                    animationFadeIn(elements[i].target, 'animate__delay-3s')
+                    break
+                case 'sponsor-4':
+                    animationFadeIn(elements[i].target, 'animate__delay-4s')
+                    break
+                case 'sponsor-5':
+                    animationFadeIn(elements[i].target, 'animate__delay-5s')
+                    break
+                case 'sponsor-6':
+                    animationFadeIn(elements[i].target, 'animate__delay-6s')
+                    break
+                case 'sponsor-7':
+                    animationFadeIn(elements[i].target, 'animate__delay-7s')
+                    break
+                case 'sponsor-8':
+                    animationFadeIn(elements[i].target, 'animate__delay-8s')
+                    break
+                case 'sponsor-9':
+                    animationFadeIn(elements[i].target, 'animate__delay-9s')
+                    break
             }
         }
     }
@@ -106,5 +133,15 @@ function animationFadeInUp(element, delay) {
 function animatioFadeInLeft(element) {
     element.classList.remove('animated-hidden-element')
     element.classList.add('animate__animated', 'animate__fadeInLeft')
+}
+
+function animationFadeIn(element, delay) {
+    if (checkSize() == 'pequena') {
+        element.classList.remove('animated-hidden-element')
+        element.classList.add('animate__animated', 'animate__fadeIn')
+    } else {
+        element.classList.remove('animated-hidden-element')
+        element.classList.add('animate__animated', 'animate__fadeIn', delay)
+    }
 }
 
