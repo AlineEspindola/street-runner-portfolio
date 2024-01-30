@@ -37,24 +37,19 @@ const observer = new IntersectionObserver( (elements) => {
                     }
                     break
                 case 'main-races-title':
-                    elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp')
+                    animationSlideInUp(elements[i].target)
                     break
                 case 'main-races-text':
-                    elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__slideInUp')
+                    animationSlideInUp(elements[i].target)
                     break
                 case 'main-races-card-1':
-                    elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-1s')
+                    animationFadeInUp(elements[i].target, 'animate__delay-1s')
                     break
                 case 'main-races-card-2':
-                    elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-2s')
+                    animationFadeInUp(elements[i].target, 'animate__delay-2s')
                     break
                 case 'main-races-card-3':
-                    elements[i].target.classList.remove('animated-hidden-element')
-                    elements[i].target.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-3s')
+                    animationFadeInUp(elements[i].target, 'animate__delay-3s')
                     break
             }
         }
@@ -64,3 +59,36 @@ const observer = new IntersectionObserver( (elements) => {
 const animatedItems = document.querySelectorAll(".animated-item")
 
 animatedItems.forEach( (animatedItem) => observer.observe(animatedItem))
+
+window.onresize = function(){
+    getDimension()
+}
+
+function getDimension(){
+    return window.innerWidth
+}
+
+function checkSize(){
+    if(getDimension() > 991){
+        return 'grande'
+    }else{
+        return 'pequena'
+    }
+}
+
+function animationSlideInUp(element) {
+    element.classList.remove('animated-hidden-element')
+    element.classList.add('animate__animated', 'animate__slideInUp')
+}
+
+function animationFadeInUp(element, delay) {
+    console.log(delay)
+    if (checkSize() == 'pequena') {
+        element.classList.remove('animated-hidden-element')
+        element.classList.add('animate__animated', 'animate__fadeInUp')
+    } else {
+        element.classList.remove('animated-hidden-element')
+        element.classList.add('animate__animated', 'animate__fadeInUp', delay)
+    }
+}
+
