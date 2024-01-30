@@ -325,6 +325,10 @@ h2 {
     font-family: Biryani;
 }
 
+.sponsors a {
+    color: black;
+}
+
 /******************* sponsorship-issue *******************/
 .sponsorship-issue {
     background: rgba(126, 179, 0, 0.07);
