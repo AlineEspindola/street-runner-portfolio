@@ -1,5 +1,11 @@
-# 👟 Landing Page para um Corredor de Rua 🏃
+<div align="center">
+<img style="width: 200px;" src="https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/0ed9c55d-f94f-49db-911c-bf0703a7afbd" />
+<h1>👟 Landing Page para um Corredor de Rua 🏃</h1>
+</div>
+
 Uma Landing Page para captar patrocinadores para um corredor de corrida. Foi criada várias seções para convencer que possíveis empresas patrocinem o atleta.
+
+https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/c36df4ee-94f4-4631-8018-129ccdbf75db
 
 ## Explorando as Camadas: Uma Jornada Visual e Informativa pela vida do Atleta
 
@@ -19,4 +25,7 @@ Como prova social, a próxima seção "PATROCINADORES" é exibindo os patrocinad
 
 Neste momento, a ideia da seção "QUER PATROCINAR?" é que a empresa já esteja convecida a patrocinar, portanto, deve-se facilitar ao máximo o caminho para o patrocinio para não haver momento de desistência da empresa.
 
+<div align="center">
+<h3 style="color: red;">꧁ Autoria: Aline Espindola ꧂</h3>
+</div>
 
