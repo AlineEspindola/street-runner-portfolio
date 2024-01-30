@@ -1,6 +1,7 @@
 <div align="center">
 <img style="width: 200px;" src="https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/0ed9c55d-f94f-49db-911c-bf0703a7afbd" />
 <h1>👟 Landing Page para um Corredor de Rua 🏃</h1>
+<h2><a href="https://sidney-espindola.vercel.app/">Acesse o Site</a></h2>
 </div>
 
 Uma Landing Page para captar patrocinadores para um corredor de corrida. Foi criada várias seções para convencer que possíveis empresas patrocinem o atleta.
@@ -40,6 +41,6 @@ Neste momento, a ideia da seção "QUER PATROCINAR?" é que a empresa já esteja
 
 <hr>
 
-## Licença: 
+### Licença: GNU GENERAL PUBLIC LICENSE
 
 
