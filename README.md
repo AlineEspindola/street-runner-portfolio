@@ -4,7 +4,7 @@
 <h2><a href="https://sidney-espindola.vercel.app/">Acesse o Site</a></h2>
 </div>
 
-Uma Landing Page para captar patrocinadores para um corredor de corrida. Foram criadas várias seções para convencer que possíveis empresas patrocinem o atleta.
+Uma Landing Page para captar patrocinadores para um corredor de rua. Foram criadas várias seções para convencer que possíveis empresas patrocinem o atleta.
 
 https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/c36df4ee-94f4-4631-8018-129ccdbf75db
 
