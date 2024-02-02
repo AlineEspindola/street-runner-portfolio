@@ -1,11 +1,20 @@
-# SidneyEspindola
-Uma Landing Page para captar patrocinadores para um corredor de corrida. Foi criada várias seções para convencer que possíveis empresas patrocinem o atleta.
+<div align="center">
+<img style="width: 200px;" src="https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/0ed9c55d-f94f-49db-911c-bf0703a7afbd" />
+<h1>👟 Landing Page para um Corredor de Rua 🏃</h1>
+<h2><a href="https://sidney-espindola.vercel.app/">Acesse o Site</a></h2>
+</div>
+
+Uma Landing Page para captar patrocinadores para um corredor de rua. Foram criadas várias seções para convencer que possíveis empresas patrocinem o atleta.
+
+https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/c36df4ee-94f4-4631-8018-129ccdbf75db
+
+<hr>
 
 ## Explorando as Camadas: Uma Jornada Visual e Informativa pela vida do Atleta
 
 A primeira seção é com um grande e exclusivo foco visual, demostrando, por meio da imagem, o intuito do site. A qualidade das imagens influencia demasidamente a opinião dos usuários.
 
-Há objetivo de exibir as maiores conquistas do atleta já no começo, na seção "PRINCIPAIS CONQUISTAS" para os usuários possuirem o conhecimento do nível do corredor. Os vídeos possuem a função de serem uma prova das vitórias, com os textos explicando os detalhes para maior compreensão.
+Há objetivo de exibir as maiores conquistas do atleta já no começo, na seção "PRINCIPAIS CONQUISTAS" para os usuários possuirem o conhecimento do nível do corredor. As imagens possuem a função de serem uma prova das vitórias, com os textos explicando os detalhes para maior compreensão.
 
 A seção "SOBRE" serve para contextualizar a vida do atleta, para ficar totalmente claro a história do corredor, para não gerar dúvida ao usuário e consequentemente receio, pois os indivíduos possuem medo do desconhecido.
 
@@ -18,5 +27,20 @@ A seção "FORMAS DE DIVULGAÇÃO" possui a finalidade de atrair ainda mais o in
 Como prova social, a próxima seção "PATROCINADORES" é exibindo os patrocinadores que o atleta possui. Isso traz confiança ao possível patrocinador, uma vez que outras empresas resolveram apoiar o corredor.
 
 Neste momento, a ideia da seção "QUER PATROCINAR?" é que a empresa já esteja convecida a patrocinar, portanto, deve-se facilitar ao máximo o caminho para o patrocinio para não haver momento de desistência da empresa.
+
+<hr>
+
+<div align="center">
+<h3>꧁ 🔴 Autoria: Aline Espindola 🔴 ꧂</h3>
+
+[![Behance](https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/line14)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aline-espindola-72034b285)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=alineabreuespindola@gmail.com)
+  
+</div>
+
+<hr>
+
+### Licença: GNU GENERAL PUBLIC LICENSE
 
 
