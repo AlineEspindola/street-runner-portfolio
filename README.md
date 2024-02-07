@@ -1,6 +1,6 @@
 <div align="center">
 <img style="width: 200px;" src="https://github.com/AlineEspindola/street-runner-portfolio/assets/117865319/0ed9c55d-f94f-49db-911c-bf0703a7afbd" />
-<h1>👟 Portfólio um Corredor de Rua 🏃</h1>
+<h1>👟 Portfólio de um Corredor de Rua 🏃</h1>
 <h2><a href="https://sidney-espindola.vercel.app/">Acesse o Site</a></h2>
 </div>
 
