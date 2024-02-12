@@ -72,7 +72,7 @@
         background: radial-gradient(68.58% 67.02% at 50% 50%, rgba(0, 0, 0, 0.00) 53.6%, rgba(0, 0, 0, 0.26) 91.75%), url(../img/landspace300x.webp), lightgray 50% / cover no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: 50% 30%;
     }
 
     .social-media {
