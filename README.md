@@ -1,12 +1,12 @@
 <div align="center">
-<img style="width: 200px;" src="https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/0ed9c55d-f94f-49db-911c-bf0703a7afbd" />
-<h1>👟 Landing Page para um Corredor de Rua 🏃</h1>
+<img style="width: 200px;" src="https://github.com/AlineEspindola/street-runner-portfolio/assets/117865319/0ed9c55d-f94f-49db-911c-bf0703a7afbd" />
+<h1>👟 Portfólio de um Corredor de Rua 🏃</h1>
 <h2><a href="https://sidney-espindola.vercel.app/">Acesse o Site</a></h2>
 </div>
 
-Uma Landing Page para captar patrocinadores para um corredor de rua. Foram criadas várias seções para convencer que possíveis empresas patrocinem o atleta.
+Um portfólio para captar patrocinadores para um corredor de rua. Foram criadas várias seções para convencer possíveis empresas a patrocinarem o atleta.
 
-https://github.com/AlineEspindola/street-runner-landing-page/assets/117865319/c36df4ee-94f4-4631-8018-129ccdbf75db
+https://github.com/AlineEspindola/street-runner-portfolio/assets/117865319/7ba00005-12cc-4f01-a23e-a29466de72b1
 
 <hr>
 
@@ -22,7 +22,7 @@ A seção "DADOS", com grandes números, é para captar a atenção por meio da 
 
 A seção "GALERIA" permite que o usuário veja dezenas de corridas participadas pelo atleta, afirmando a optidão do corredor, além de, novamente, captar atenção pela quantidade.
 
-A seção "FORMAS DE DIVULGAÇÃO" possui a finalidade de atrair ainda mais o interesse de possíveis patrocinadores, para dar a vontade de serem divulgados de tal modo. Esse desejo é mais ampliado após as seções anteriores, pois neste momento a ideia que o patrocinador já tenha sido "captado" (landing pag = página de captura).
+A seção "FORMAS DE DIVULGAÇÃO" possui a finalidade de atrair ainda mais o interesse de possíveis patrocinadores, para dar a vontade de serem divulgados de tal modo. Esse desejo é mais ampliado após as seções anteriores, pois neste momento a ideia que o patrocinador já tenha sido "captado" (podendo o portfolio ser considerado uma landing pag = página de captura).
 
 Como prova social, a próxima seção "PATROCINADORES" é exibindo os patrocinadores que o atleta possui. Isso traz confiança ao possível patrocinador, uma vez que outras empresas resolveram apoiar o corredor.
 
