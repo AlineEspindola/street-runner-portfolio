@@ -51,7 +51,7 @@
         background: radial-gradient(68.58% 67.02% at 50% 50%, rgba(0, 0, 0, 0.00) 53.6%, rgba(0, 0, 0, 0.26) 91.75%), url(../img/landspace500x.webp), lightgray 50% / cover no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 50% 30%;
+        background-position: 50% 50%;
     }
 
     .data .row {
@@ -73,7 +73,7 @@
         background: radial-gradient(68.58% 67.02% at 50% 50%, rgba(0, 0, 0, 0.00) 53.6%, rgba(0, 0, 0, 0.26) 91.75%), url(../img/landspace500x.webp), lightgray 50% / cover no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 50% 100%;
+        background-position: 50% 60%;
     }
 
     .navbar {
