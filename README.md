@@ -6,7 +6,7 @@
 
 Um portfólio para captar patrocinadores para um corredor de rua. Foram criadas várias seções para convencer possíveis empresas a patrocinarem o atleta.
 
-https://github.com/AlineEspindola/street-runner-portfolio/assets/117865319/7ba00005-12cc-4f01-a23e-a29466de72b1
+https://github.com/AlineEspindola/street-runner-portfolio/assets/117865319/d70a4943-c9f6-4307-926c-f92ab8988cbc
 
 <hr>
 
