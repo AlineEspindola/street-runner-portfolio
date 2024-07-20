@@ -87,9 +87,6 @@ const observer = new IntersectionObserver( (elements) => {
                 case 'sponsor-8':
                     animationFadeIn(elements[i].target, 'animate__delay-8s')
                     break
-                case 'sponsor-9':
-                    animationFadeIn(elements[i].target, 'animate__delay-9s')
-                    break
             }
         }
     }
